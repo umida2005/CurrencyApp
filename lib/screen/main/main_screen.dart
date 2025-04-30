@@ -106,8 +106,6 @@ class _MainScreenState extends State<MainScreen> {
     );
   }
 
-
-
   Future<void> selectDate() async {
     DateTime? _select = await showDatePicker(
       context: context,
